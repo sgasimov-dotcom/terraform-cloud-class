@@ -31,3 +31,7 @@ resource "aws_instance" "web2" {
     Name = "NewOne"
   }
 }
+
+provider "aws" {
+  region = "us-east-1"
+}
